@@ -17,7 +17,7 @@ def split_file(file_path, chunk_size=500*1024*1024):
 def split_all_files_in_directory(directory, chunk_size=500*1024*1024):
     for file_name in os.listdir(directory):
         file_path = os.path.join(directory, file_name)
-        if os.path.isfile(file_path):
+        if os.path.isfile(file_path) and file_name.lower().endswith('.txt'):
             split_file(file_path, chunk_size)
 
 directory_path = "I:/15_6_2567/2"
