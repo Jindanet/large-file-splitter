@@ -16,7 +16,7 @@ Large File Splitter is a Python utility to split large text files into smaller p
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/large-file-splitter.git
+    git clone https://github.com/jindanet/large-file-splitter.git
     cd large-file-splitter
     ```
 
